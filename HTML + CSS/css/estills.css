@@ -1,0 +1,46 @@
+/* Todos los elementos de la pagina */
+*{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+h1 {
+   color: black;
+ }
+
+p {
+   color: black;
+ }
+
+ol{
+   color: rgb(0, 0, 0);
+ }
+
+ul{
+   color: black;
+ }
+
+/* Todos los enlaces la pagina */
+a {
+    color: rgb(0, 0, 0); /* NOrmal color of the link */
+}
+
+a:hover {
+    color: rgb(255, 0, 0); /* Color when the mouse hovers over the link */
+}
+
+a.active {
+    color: rgb(255, 0, 0); /* Color when the link is clicked */
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 6 / 4; }
+.div2 { grid-area: 1 / 4 / 6 / 6; }
+
